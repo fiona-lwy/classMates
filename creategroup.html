@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ClassMates create a new group</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="nav_user">
+                <div class="nav_item">
+                    <img src="img/logo.png" alt="logo" class="nav_item logo"><a href="index.html"></a>
+                </div>
+                <div class="nav_item nav_item_flex">
+                    <a href="index.html" class="usernav_item">All groups</a>
+                    <a href="mygroups.html" class="usernav_item nav_active">My groups</a>
+                    <a href="profile.html" class="usernav_item">Profile</a>
+                </div>
+                <div class="nav_item u-right"><a href="index.html" class="nav_item">Logout</a></div>
+            </div>
+
+
+            <div class="form_item u-center">
+                <h3 class="form_intro">Create a new group</h3>
+                    <div class="form_item">
+                        <label for="groupname" class="form_title">
+                            Group Name
+                        </label>
+                        <input type="text" id="groupname" name="groupname" placeholder="Enter a group name">
+                    </div>
+                    
+                    <div class="form_item">
+                        <label for="description" class="form_title">Description</label>
+                        <input type="text" id="description" name="description" placeholder="Enter description">
+                    </div>
+                    
+                    <div class="form_item">
+                        <label for="rules" class="form_title">Rules</label>
+                        <input type="text" id="rules" name="rules" placeholder="Enter rules">
+                    </div>
+
+                    <div class="form_item">
+                        <label for="availabletime" class="form_title">Available Day</label>
+                        <label class="myCheckbox">
+                            <div class="time_option">
+                                <input type="checkbox" name="mon">
+                                <span>Mon</span>
+                                <input type="checkbox" name="tue">
+                                <span>Tue</span>
+                                <input type="checkbox" name="wed">
+                                <span>Wed</span>
+                                <input type="checkbox" name="thu">
+                                <span>Thu</span>
+                                <input type="checkbox" name="fri">
+                                <span>Fri</span>
+                                <input type="checkbox" name="sat">
+                                <span>Sat</span>
+                                <input type="checkbox" name="sun">
+                                <span>Sun</span>
+                            </div>
+
+                            <div class="time_option">
+                                    <label for="time" class="form_title">Time</label>
+                                    <select id="time" name="time">
+                                        <option value="1-2">1-2pm</option>
+                                    </select>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div>
+                        <button class="button_sec twobuttons">Cancel</button>
+                        <button class="button_pri">Create</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ClassMates Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="nav_user">
+                <div class="nav_item">
+                    <img src="img/logo.png" alt="logo" class="nav_item logo"><a href="index.html"></a>
+                </div>
+                <div class="nav_item nav_item_flex">
+                    <a href="index.html" class="usernav_item">All groups</a>
+                    <a href="mygroups.html" class="usernav_item">My groups</a>
+                    <a href="profile.html" class="usernav_item">Profile</a>
+                </div>
+                <div class="nav_item u-right"><a href="#" class="nav_item nav_active">Login</a></div>
+            </div>
+
+            <div class="form_section">
+                <form class="signinform_section">
+                    <div class="form_item">
+                        <label for="username" class="form_title">Username</label>
+                        <input type="text" id="username" name="username" placeholder="Enter username">
+                    </div>
+                    <div class="form_item">
+                        <label for="password" class="form_title">Password</label>
+                        <input type="text" id="password" name="password" placeholder="Enter password">
+                    </div>
+                    <a href="profile.html"><button type="submit" class="button_pri">Login</button></a>
+                </form>
+
+                <form class="signupform_section">
+                    <h3 class="form_intro">HAVEN’T GOT AN ACCOUNT YET? Just sign up below.</h3>
+                    <div class="form_item">
+                        <label for="newusername" class="form_title">
+                            <p>Username</p>
+                        </label>
+                        <input type="text" id="newusername" name="newusername" placeholder="Enter username">
+                    </div>
+
+                    <div class="form_item">
+                        <label for="newpassword" class="form_title">Password</label>
+                        <input type="text" id="newpassword" name="newpassword" placeholder="Enter password">
+                    </div>
+                    <div class="form_item">
+                        <label for="newemailaddress" class="form_title">Email address</label>
+                        <input type="text" id="newemailaddress" name="newemailaddress" placeholder="Enter email address">
+                    </div>
+                    <a href="profile.html"><button type="submit" class="button_sec">Submit</button></a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
