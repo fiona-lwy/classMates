@@ -27,21 +27,23 @@
 
             <div class="form_item u-center">
                 <h3 class="form_intro">Create a new group</h3>
+                <div><button class="button_sec">Upload Cover Picture</button></div>
                     <div class="form_item">
-                        <label for="groupname" class="form_title">
-                            Group Name
-                        </label>
-                        <input type="text" id="groupname" name="groupname" placeholder="Enter a group name">
+                        <div class="groupname_section">
+                            <label for="groupname" class="form_title">
+                                Group Name
+                            </label>
+                            <input type="text" id="groupname" name="groupname" placeholder="Enter a group name">
+                        </div>
                     </div>
-                    
                     <div class="form_item">
                         <label for="description" class="form_title">Description</label>
-                        <input type="text" id="description" name="description" placeholder="Enter description">
+                        <input type="text" id="description" name="description" placeholder="Enter description" class="largebox">
                     </div>
                     
                     <div class="form_item">
-                        <label for="rules" class="form_title">Rules</label>
-                        <input type="text" id="rules" name="rules" placeholder="Enter rules">
+                        <label for="rules" class="form_title">Rules (Optional)</label>
+                        <input type="text" id="rules" name="rules" placeholder="Enter rules" class="largebox">
                     </div>
 
                     <div class="form_item">
@@ -72,7 +74,7 @@
                             </div>
                         </label>
                     </div>
-
+                    
                     <div>
                         <button class="button_sec twobuttons">Cancel</button>
                         <button class="button_pri">Create</button>
